@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BurgerJawn Bro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body style="background-color: rgb(245, 245, 188);">
+    <header>
+        <div class="container-fluid border" style="background-color: rgb(76, 189, 76);">
+            <div class="row">
+                <div class="col">
+                    <h1><a href="index.html" style="text-decoration: none;">BurgerJawn</a></h1>
+                </div>
+                <div class="col d-flex justify-content-end align-items-center">
+                    <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#signUp">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="signUp" class="modal">
+        <div class="modal-dialog">
+            <div class="modal-content" style="padding:20px">
+                <div class="modal-header">
+                    <h4 class="modal-title">Sign Up</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aira-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Sign Up</p>
+                    <form>
+                        <div class="mb-3">
+                            <label for="firstName" class="form-label">First Name</label>
+                            <input type="text" class="form-control" id="firstName" placeholder="Enter first name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="lastName" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" id="lastName" placeholder="Enter last name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">First Name</label>
+                            <input type="text" class="form-control" id="email" placeholder="Enter E-mail name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="age" class="form-label">First Name</label>
+                            <input type="number" class="form-control" id="age" placeholder="Enter Age">
+                        </div>
+                        <div class="mb-3">
+                            <label for="firstName" class="form-label">First Name</label>
+                            <input type="text" class="form-control" id="firstName" placeholder="Enter first name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Enter your password">
+                        </div>
+                        <button>Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousels are a way to scroll through images, or web components that you wanna showcase -->
+    <section>
+        <div class="row my-5">
+            <div class="col offset-1 d-flex justify-content-center align-items-center">
+                <div id="carousel1" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="https://i.pinimg.com/originals/46/b7/d5/46b7d56445a1675781ba4bd97fd62a35.jpg" style="max-width: 100%; max-height: 100%;" class="d-block w-100" alt="burger">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://i.pinimg.com/originals/46/b7/d5/46b7d56445a1675781ba4bd97fd62a35.jpg" style="max-width: 100%; max-height: 100%;" class="d-block w-100" alt="burger">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://i.pinimg.com/originals/46/b7/d5/46b7d56445a1675781ba4bd97fd62a35.jpg" style="max-width: 100%; max-height: 100%;" class="d-block w-100" alt="Burger">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                
+            </div>
+            <div class="col d-flex justify-content-left align-items-center">
+                <div class="jumbotron">
+                    <div class="col">
+                        <div class ="row">
+                            <h1>America's Burger Jawn!</h1>
+                        </div>
+                        <br>
+                        <div clas ="row">
+                            <p>This burger is so good you'll come back for more!</p>
+                        </div>
+                        <div class="row">
+                            <p>Makes you wanna slap your momma!</p>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <h4>Check out our Social Media!</h4>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <a href="https://www.facebook.com/"><img src="R.png" width="50"></a>
+                                <a href="https://www.tiktok.com"><img src="tiktok.png" width="50"></a>
+                                <a href="https://twitter.com"><img src="twitter.png" width="50"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section>
+        <div class="container">
+            <div class="row my-5 d-flex justify-content-center align-items-center">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title" style="text-align: center;">Burger Menu</h5>
+                            <hr>
+                            <div class="menu-items">
+                                <div class="d-flex justify-content-between">
+                                    <p>Cheeseburgers</p>
+                                    <p>$5</p>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <p>Hamburgers</p>
+                                    <p>$4</p>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <p>Veg Burger</p>
+                                    <p>$3</p>
+                                </div>
+                                <!--I was using two seperate columns for the burgers and prices, this way I can just have spaces in between both the name and the price that reaches both ends using justify-content-between -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title" style="text-align: center;">Fries Menu</h5>
+                            <hr>
+                            <div class="menu-items">
+                                <div class="d-flex justify-content-between">
+                                    <p>Cheesy Fries</p>
+                                    <p>$5</p>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <p>Curly Fries</p>
+                                    <p>$4</p>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <p>Spicy fries</p>
+                                    <p>$3</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title" style="text-align: center;">Drinks Menu</h5>
+                            <hr>
+                            <div class="menu-items">
+                                <div class="d-flex justify-content-between">
+                                    <p>Can Sodas</p>
+                                    <p>$5</p>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <p>Milk Shakes</p>
+                                    <p>$4</p>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <p>Bottle water</p>
+                                    <p>$3</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section>
+        <div class="row">
+            <div class="col-5 d-flex justify-content-end align-items-center">
+                <h3>Meet the Chef</h3>
+            </div>
+            <div class="col-2">
+                <img class="rounded-circle" src="https://community.thriveglobal.com/wp-content/uploads/2020/09/Chef-in-Kitchen-1.jpeg" width="400" height="300">
+            </div>
+            <div class="col-5 d-flex justify-content-start align-items-center">
+                <h3>Michelle Strays</h3>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section>
+        <div class="row">
+            <div class="col d-flex text-align:'center' justify-content-center align-items-center">
+                <h2 style="font-weight:900">Testimonials from Customers</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-2">
+                              <div class="card">
+                                <div class="card-body">
+                                  <h5 class="card-title">Customer 1</h5>
+                                  <p class="card-text">WOW! GREAT BURGERS! MUST TRY!</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-2">
+                              <div class="card">
+                                <div class="card-body">
+                                  <h5 class="card-title">Customer 2</h5>
+                                  <p class="card-text">I had to have my friends slap me to make sure this is real</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-2">
+                              <div class="card">
+                                <div class="card-body">
+                                  <h5 class="card-title">Customer 3</h5>
+                                  <p class="card-text">Great!</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-2">
+                              <div class="card">
+                                <div class="card-body">
+                                  <h5 class="card-title">Customer 4</h5>
+                                  <p class="card-text">I'm telling everyone about this place!</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-2">
+                              <div class="card">
+                                <div class="card-body">
+                                  <h5 class="card-title">Customer 5</h5>
+                                  <p class="card-text">You have a life long customer</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-2">
+                              <div class="card">
+                                <div class="card-body">
+                                  <h5 class="card-title">Customer 6</h5>
+                                  <p class="card-text">It's the best in the east coast!</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <footer>
+        <div class="col d-flex align-items-center justify-content-center">
+            <h6>&copy; BurgerJawn 2023 888 || Wheels Street Wilmington DE 19808 || Contact Us, Phone : 888-888-2828  E-mail :burgerjawn@gmail.com</h6>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+</body>
+</html>
